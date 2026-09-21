@@ -1,0 +1,13 @@
+{
+  "name": "playwright-integration-demo",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "playwright test",
+    "test:card": "playwright test tests/07-driver-card.spec.ts --headed",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.47.0"
+  }
+}
